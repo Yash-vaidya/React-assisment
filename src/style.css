@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  min-height: 200vh;
+  background: radial-gradient(circle at bottom center, white 0%, black 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lol {
+  color: #f8f9fa;
+  transition: ease-in 1s;
+}
+.lol:hover {
+  border-radius: 15px;
+  background-color: #0d6efd;
+  transform: scale(0.9);
+  color: #ffffff;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transform: translateY(-8px);
+}
+.pops {
+  border-radius: 30px;
+  margin-left: 60px;
+  padding: 100px;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+  overflow: hidden;
+}
+
+.survice {
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+  overflow: hidden;
+}
+.survice:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transform: translateY(-8px);
+}
+#Acar {
+  border-radius: 15px;
+  font-size: xx-large;
+  transition: ease-in-out 1s;
+}
+#Acar:hover {
+  transform: scale(0.9);
+}
