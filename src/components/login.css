@@ -1,0 +1,18 @@
+.login-card {
+  border-radius: 20px;
+  background: #ffffff;
+}
+
+.login-btn {
+  border: 2px solid white;
+  background-color: transparent;
+  color: black;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background-color: lightblue;
+  color: white;
+  border-color: lightblue;
+}

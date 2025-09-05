@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Login from "./components/Login";
+import Watch from "./pages/Watch";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/mobile" element={<Mobile />} />
           <Route path="/laptop" element={<Laptop />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/Watch" element={<Watch />} />
         </Routes>
         <Contact />
         <Footer />

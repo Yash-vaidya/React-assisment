@@ -34,6 +34,17 @@ const Navbar = () => {
               </li>
 
               <li className="nav-item">
+                <NavLink to="/watch" className="nav-link active fs-5">
+                  Watch
+                </NavLink>
+              </li>
+
+              <li className="nav-item">
+                <NavLink to="/contact" className="nav-link active fs-5">
+                  Contact
+                </NavLink>
+              </li>
+              <li className="nav-item">
                 <button className="btn btn-outline-success m-2 p-0">
                   {" "}
                   <NavLink to="/logine" className="nav-link active fs-5">
@@ -42,7 +53,7 @@ const Navbar = () => {
                 </button>{" "}
               </li>
               <li className="nav-item">
-                <button className="btn btn-outline-danger m-2 p-0">
+                <button className="btn btn-outline-success m-2 p-0">
                   <NavLink to="/singup" className="nav-link active fs-5">
                     sing up
                   </NavLink>
